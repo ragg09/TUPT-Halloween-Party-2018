@@ -1,0 +1,101 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+
+body{
+	background: black;
+	overflow-x: hidden;
+}
+.pers{
+	height: 100vh;
+	width: 100%;
+	background: url(8873.jpg) no-repeat center;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.pers img{
+	width: 100%;
+	position: absolute;
+	left: 0px;
+	bottom: -120px;
+}
+
+.una{
+	font-size: 70px;
+	position: relative;
+	top: 12%;
+	left: 35%;
+	font-family: Curlz MT,Comic Sans MS,Arial;
+		text-shadow: 1px 1px #FF0000;
+		z-index: 1;
+}
+
+.pangalawa{
+	font-size: 70px;
+	position: relative;
+	top: 25%;
+	left: 47%;
+	font-family: Curlz MT,Comic Sans MS,Arial;
+		text-shadow: 1px 1px #FF0000;
+		z-index: 1;
+}
+
+.tatlo{
+	font-size: 70px;
+	position: relative;
+	top: 35%;
+	left: 45%;
+	font-family: Curlz MT,Comic Sans MS,Arial;
+		text-shadow: 1px 1px #FF0000;
+		z-index: 1;
+}
+
+.dawa{
+	background: black;
+	height: 100vh;
+	width: 100%;
+	z-index: 10;
+}
+
+.dawa p{
+	padding-top: 50px;
+	margin-left: 100px;
+	margin-right: 100px;
+	color: #400000;
+	font-size: 100px;
+	line-height: 150px;
+	font-family: Curlz MT,Comic Sans MS,Arial;
+	text-shadow: 1px 1px #FF0000;
+	text-align: center;
+}
+
+.moo{
+	background: black;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+}
+
+.moo h1{
+	text-align: center;
+	font-size: 200px;
+	line-height: 250px;
+	padding-top: 30px;
+	font-family: Curlz MT,Comic Sans MS,Arial;
+	color: 	#400000;
+	text-align: center;
+	-webkit-animation: glow 1s ease-in-out infinite alternate;
+	 -moz-animation: glow 1s ease-in-out infinite alternate;
+	animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+  from {
+     text-shadow: 0 0 10px #FF0000, 0 0 20px #FF0000, 0 0 30px 	#D00000, 0 0 40px 	#D00000, 0 0 50px 	#D00000, 0 0 70px 	#D00000;
+  }
+  to {
+    text-shadow: 0 0 20px #FF0000, 0 0 30px 	#B80000, 0 0 40px 	#B80000, 0 0 50px 	#B80000, 0 0 60px 	#B80000, 0 0 70px	#B80000, 0 0 80px 	#B80000;
+  }
